@@ -23,7 +23,7 @@ var MONGO = {
     options: MONGO_OPTIONS,
     url: "mongodb+srv://mp17017:warzone2109@crudapp.gdbyv.mongodb.net/CrudApp?retryWrites=true&w=majority"
 };
-var SERVER_HOSTNAME = process.env.SERVER_HOSTNAME || 'https://mp17017.github.io/scheduling-application-backend/';
+var SERVER_HOSTNAME = process.env.SERVER_HOSTNAME || 'https://mp17017.github.io/scheduling-application-backend';
 var SERVER_PORT = process.env.SERVER_PORT || 443;
 var SERVER = {
     hostname: SERVER_HOSTNAME,
